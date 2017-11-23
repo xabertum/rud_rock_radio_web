@@ -1,3 +1,26 @@
-h1 {
-    text-align: center;
+.jumbotron {
+    background-color: white;
+    color: black;
+}
+
+.container1 {
+    background-color: #1F1E1E;
+    color: white;
+}
+
+#fondo-jumbo {
+    background-image: url('/img/fondo_1.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/*********************************/
+
+.container.bandas-locales {
+    background-color: white;
+}
+
+#banda-local {
+    float: left;
+    padding-right: 2em;
 }
