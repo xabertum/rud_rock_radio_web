@@ -5,6 +5,21 @@
 .jumbotron {
     background-color: white;
     color: black;
+
+}
+
+.navbar {
+    transition: top 0.2s ease-in-out;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+#navscroll  {
+    height: 40px;
+
 }
 
 .container1 {
@@ -23,10 +38,10 @@
 
 .container.bandas-locales {
     background-color: white;
+    height: 2000px;
 }
 
 #banda-local {
     float: left;
     padding-right: 2em;
 }
-
