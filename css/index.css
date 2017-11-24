@@ -14,9 +14,10 @@
 }
 
 #fondo-jumbo {
-    background-image: url('/img/fondo_1.jpg');
+    background-image: url('/img/fondo_1_gris.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-size: cover;
 }
 
 /*********************************/
