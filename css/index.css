@@ -1,12 +1,18 @@
-.wrapper {
-    overflow-x: hidden;
+@font-face {
+    font-family: rockfont;
+    src: url('../fonts/SerialPublicationDEMO.ttf');
 }
 
 
 
+.wrapper {
+    overflow-x: hidden;
+}
+
 .brand-text {
     color: white;
     font-size: 1em;
+
 }
 
 /********** JUMBOTRON MEDIA QUERIES ******/
@@ -30,7 +36,12 @@
 }
 
 .jumbotron {
-    color: black;
+    color: white;
+    font-size: 9em;
+    text-align: center;
+    font-family: rockfont;
+    padding-top: 6%;
+
 }
 
 #fondo-jumbo {
