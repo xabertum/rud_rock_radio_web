@@ -51,6 +51,8 @@
     background-size: cover;
 }
 
+
+
 /*********************************/
 
 .container1 {
@@ -72,6 +74,21 @@
     #banda-local {
         padding-right: 0em;
     }
+}
+
+.padding-container {
+    padding-bottom: 1%;
+
+}
+
+#colaboradores {
+    color: #BB5B5C;
+    font-size: 2.5em;
+    padding-bottom: 2%;
+}
+
+body > div.wrapper > main > div.container.padding-container > div > div > center > img {
+    margin-bottom: 3%;
 }
 
 /******* CONTACTO SECTION *****************/
