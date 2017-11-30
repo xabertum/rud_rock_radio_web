@@ -12,9 +12,10 @@
     font-size: 1em;
 
 }
+
 hr {
     background-color: white;
-    width: 75%;
+    width: 85%;
 }
 
 /********** JUMBOTRON MEDIA QUERIES ******/
@@ -95,9 +96,13 @@ body > div.wrapper > main > div.container.padding-container > div > div > center
     margin-bottom: 3%;
 }
 
-/******* CONTACTO SECTION *****************/
+/******* COPYRIGHT SECTION *****************/
 
-.contacto {
+.copyright_width {
+    padding-left: 2%;
+}
+
+.copyright {
 
     background-color: #111;
     color: white;
