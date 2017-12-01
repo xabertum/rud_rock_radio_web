@@ -15,7 +15,11 @@
 
 hr {
     background-color: white;
-    width: 85%;
+    width: 75%;
+}
+
+body {
+    background-color: lightgrey;
 }
 
 /********** JUMBOTRON MEDIA QUERIES ******/
@@ -40,7 +44,7 @@ hr {
 
 .jumbotron {
     color: white;
-    font-size: 9em;
+    font-size: 12em;
     text-align: center;
     font-family: rockfont;
     padding-top: 7.7%;
@@ -55,7 +59,6 @@ hr {
 }
 
 
-
 /*********************************/
 
 .container1 {
@@ -64,7 +67,7 @@ hr {
 }
 
 .container.bandas-locales {
-    background-color: white;
+    background-color: lightgrey;
     padding-top: 2%;
     padding-bottom: 2%;
 
@@ -82,7 +85,7 @@ hr {
 }
 
 .padding-container {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 
 }
 
