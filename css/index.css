@@ -102,6 +102,16 @@ body > div.wrapper > main > div.container.padding-container > div > div > center
 
 /********** MEDIA QUERIES ******/
 
+@media only screen and (max-width: 768px) {
+    #fondo-jumbo > div > p {
+        font-size: 0.7em;
+    }
+
+    #fondo-jumbo > div {
+        padding-top: 10%;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .jumbotron {
         padding-top: 12%;
@@ -135,5 +145,8 @@ body > div.wrapper > main > div.container.padding-container > div > div > center
 
     #fondo-jumbo > div {
         padding-top: 17%;
+    }
+    #colaboradores {
+        font-size: 1.5em;
     }
 }
