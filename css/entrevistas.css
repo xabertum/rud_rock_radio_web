@@ -1,3 +1,21 @@
 .wrapper {
     padding-top: 7%;
 }
+
+@media only screen and (max-width: 576px) {
+    .wrapper {
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .wrapper {
+        padding-top: 22%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .wrapper {
+        padding-top: 27%;
+    }
+}

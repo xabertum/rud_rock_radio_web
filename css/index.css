@@ -22,25 +22,7 @@ body {
     background-color: lightgrey;
 }
 
-/********** JUMBOTRON MEDIA QUERIES ******/
-
-@media only screen and (max-width: 576px) {
-    .jumbotron {
-        padding-top: 12%;
-    }
-}
-
-@media only screen and (max-width: 376px) {
-    .jumbotron {
-        padding-top: 19%;
-    }
-}
-
-@media only screen and (max-width: 321px) {
-    .jumbotron {
-        padding-top: 19%;
-    }
-}
+/**************** JUMBOTRON *************/
 
 .jumbotron {
     color: white;
@@ -116,4 +98,42 @@ body > div.wrapper > main > div.container.padding-container > div > div > center
 #copyright {
     color: #BB5B5C;
     font-size: 2em;
+}
+
+/********** MEDIA QUERIES ******/
+
+@media only screen and (max-width: 576px) {
+    .jumbotron {
+        padding-top: 12%;
+    }
+    #fondo-jumbo > div > p {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .jumbotron {
+        padding-top: 19%;
+    }
+
+    #fondo-jumbo > div > p {
+        font-size: 0.3em;
+    }
+    #fondo-jumbo > div {
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .jumbotron {
+        padding-top: 19%;
+    }
+
+    #fondo-jumbo > div > p {
+        font-size: 0.2em;
+    }
+
+    #fondo-jumbo > div {
+        padding-top: 17%;
+    }
 }
