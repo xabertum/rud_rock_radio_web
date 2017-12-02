@@ -32,5 +32,11 @@
 @media only screen and (max-width: 322px) {
     .wrapper {
         padding-top: 27%;
+
     }
+    body > div.wrapper > div > div > div > h2 {
+        font-size: 1.7em;
+    }
+
+
 }
