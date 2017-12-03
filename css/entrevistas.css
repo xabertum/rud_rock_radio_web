@@ -1,9 +1,15 @@
 .wrapper {
-    padding-top: 5%;
+    padding-top: 4.25%;
 }
 
 
 /************ MEDIA QUERIES ************/
+
+@media only screen and (max-width: 1920px) {
+    .wrapper {
+        padding-top: 6%;
+    }
+}
 
 @media only screen and (max-width: 1025px) {
     .wrapper {
