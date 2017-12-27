@@ -1,3 +1,0 @@
-RewriteEngine on
-
-ErrorDocument 404 new404.html
